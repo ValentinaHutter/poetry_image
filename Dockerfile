@@ -68,7 +68,6 @@ WORKDIR /app
 
 # Copy over the venv and the code
 COPY --from=base --chown=1000:1000 /app/.venv ./.venv
-COPY --chown=1000:1000 indices_compute /app/indices_compute
 
 # Update the symlinks to the python interpreter in the venv to the new location
 RUN ln -sf /usr/local/bin/python /app/.venv/bin/python \
