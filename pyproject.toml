@@ -1,9 +1,8 @@
 [tool.poetry]
 name = "poetry_image"
-version = "2025.10.2"
+version = "2025.10.3"
 description = ""
 authors = ["Valentina Hutter <valentina.hutter@eodc.eu>"]
-package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
