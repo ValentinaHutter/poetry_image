@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poetry_image"
-version = "2025.10.3"
+version = "2025.10.4"
 description = ""
 authors = ["Valentina Hutter <valentina.hutter@eodc.eu>"]
 
